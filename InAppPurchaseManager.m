@@ -32,6 +32,8 @@
 
 // If your Bundle ID is com.person.myapp and your Product ID is com.person.myapp.myproduct
 // Then put myproduct in for your Product ID
+
+#warning Fill in your Product ID
 #define kInAppPurchaseProUpgradeProductId @"REPLACE WITH PRODUCT ID"
 
 
