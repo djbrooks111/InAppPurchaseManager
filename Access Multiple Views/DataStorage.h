@@ -30,7 +30,7 @@
 #import <Foundation/Foundation.h>
 #import "InAppPurchaseManager.h"
 
-extern InAppPurchaseManager *InAppPurchaseManager;
+extern InAppPurchaseManager *inAppPurchaseManager;
 
 @interface DataStorage : NSObject
 

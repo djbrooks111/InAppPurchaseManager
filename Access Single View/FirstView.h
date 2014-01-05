@@ -28,9 +28,12 @@
  */
 
 #import <UIKit/UIKit.h>
-// Import our data storage to access our single store reference
-#import "DataStorage.h"
+// Import our IAP Manager
+#import "InAppPurchaseManager.h"
 
-@interface FirstView : UIViewController
+@interface FirstView : UIViewController {
+    // Create reference to our manager to access it across all methods
+    InAppPurchaseManager *inAppPurchaseManager;
+}
 
 @end
