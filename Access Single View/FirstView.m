@@ -29,11 +29,11 @@
 
 #import "FirstView.h"
 
-@interface SecondView ()
+@interface FirstView ()
 
 @end
 
-@implementation SecondView
+@implementation FirstView
 
 - (void)viewDidLoad
 {
