@@ -110,7 +110,7 @@
 -(void)recordTransaction:(SKPaymentTransaction *)transaction {
     if ([transaction.payment.productIdentifier isEqualToString:kInAppPurchaseProUpgradeProductId]) {
         // Save the transaction recipt to disk
-        [[NSUserDefaults standardUserDefaults] setValue:transaction.transactionReceipt forKey:@"proUpgradeTransactionReceipt"];
+        [[NSUserDefaults standardUserDefaults] setValue:[[NSBundle mainBundle] appStoreReceiptURL] forKey:@"proUpgradeTransactionReceipt"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
 }
